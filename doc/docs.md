@@ -358,6 +358,7 @@ a, b := foo()
 println(a) // 2
 println(b) // 3
 c, _ := foo() // ignore values using `_`
+println(c) // 2
 ```
 
 ## Symbol visibility
